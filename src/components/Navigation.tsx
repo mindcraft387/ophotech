@@ -212,8 +212,8 @@ const Navigation: React.FC = () => {
             Industries
           </Link>
           <Link 
-            to="/#careers" 
-            onClick={(e) => handleNavClick(e, '#careers')}
+            to="/careers" 
+            // onClick={(e) => handleNavClick(e, '#careers')}
             className="text-gray-300 font-medium nav-link-hover"
           >
             Careers
