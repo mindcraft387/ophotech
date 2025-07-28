@@ -84,8 +84,8 @@ const AboutSection: React.FC = () => {
     'New Delhi': {
       city: 'New Delhi',
       country: 'India',
-      lat: 28.6139,
-      lng: 77.2090,
+      lat: 28.628469,
+      lng: 77.091483,
       zoom: '50000',
       coords: 'MjjCsDM2JzUwLjAiTiA3N8KwMTInMzIuNCJF',
       label: 'ND'

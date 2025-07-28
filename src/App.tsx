@@ -61,7 +61,7 @@ function App() {
               <BlogSection category="opho-tech" status="published" />
 
               <CareersSection />
-              <Footer />
+             
             </>
           } />
           <Route path="/engagement-model" element={<EngagementModel />} />
@@ -95,6 +95,7 @@ function App() {
           <Route path="/fix-quickly-improve-continuously" element={<FixQuicklyImproveContinuously />} />
           <Route path="/let-ai-keep-things-getting-better-over-time" element={<LetAIKeepThingsGettingBetterOverTime />} />
         </Routes>
+         <Footer />
         <CookieConsent />
       </div>
     </Router>
