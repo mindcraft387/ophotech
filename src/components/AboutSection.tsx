@@ -122,6 +122,7 @@ const AboutSection: React.FC = () => {
       }
     }
   };
+console.log(selectedLocation);
 
 
   return (
@@ -322,7 +323,8 @@ const AboutSection: React.FC = () => {
                 <div className="relative">
                   <iframe
                     id="global-presence-map"
-                    src={`https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d${selectedLocation.zoom}!2d${selectedLocation.lng}!3d${selectedLocation.lat}!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2z${selectedLocation.coords}!5e0!3m2!1sen!2sus!4v1642089876543!5m2!1sen!2sus&markers=color:blue%7Clabel:${selectedLocation.label}%7C${selectedLocation.lat},${selectedLocation.lng}`}
+                    // src={`https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d${selectedLocation.zoom}!2d${selectedLocation.lng}!3d${selectedLocation.lat}!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2z${selectedLocation.coords}!5e0!3m2!1sen!2sus!4v1642089876543!5m2!1sen!2sus&markers=color:blue%7Clabel:${selectedLocation.label}%7C${selectedLocation.lat},${selectedLocation.lng}`}
+                    src={`https://maps.google.com/maps?q=${selectedLocation.lat},${selectedLocation.lng}&z=14&output=embed`}
                     width="100%"
                     height="400"
                     style={{ border: 0, filter: 'hue-rotate(220deg) saturate(0.8) brightness(0.9)' }}
@@ -331,7 +333,22 @@ const AboutSection: React.FC = () => {
                     referrerPolicy="no-referrer-when-downgrade"
                     className="w-full h-96 rounded-2xl transition-all duration-500"
                   ></iframe>
-                  
+                  {/* <iframe
+  id="global-presence-map"
+  src={`https://maps.google.com/maps?q=${selectedLocation.lat},${selectedLocation.lng}&z=14&output=embed`}
+  key={`${selectedLocation.lat}-${selectedLocation.lng}`} // Forces React to reload iframe on location change
+  width="100%"
+  height="400"
+  style={{
+    border: 0,
+    filter: 'hue-rotate(220deg) saturate(0.8) brightness(0.9)'
+  }}
+  allowFullScreen
+  loading="lazy"
+  referrerPolicy="no-referrer-when-downgrade"
+  className="w-full h-96 rounded-2xl transition-all duration-500"
+/> */}
+
                   {/* Location Info Overlay */}
                   <div className="absolute top-4 left-4 bg-primary-900/90 backdrop-blur-sm rounded-lg p-4 border border-primary-500/30">
                     <div className="flex items-center gap-3">
