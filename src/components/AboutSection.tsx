@@ -87,7 +87,7 @@ const AboutSection: React.FC = () => {
       lat: 28.628469,
       lng: 77.091483,
       zoom: '50000',
-      coords: 'MjjCsDM2JzUwLjAiTiA3N8KwMTInMzIuNCJF',
+      coords: 'MjjCsDM3JzQyLjUiTiA3N8KwMDUnMjkuMyJF',
       label: 'ND'
     },
     'Bay Area': {
@@ -323,8 +323,8 @@ console.log(selectedLocation);
                 <div className="relative">
                   <iframe
                     id="global-presence-map"
-                    // src={`https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d${selectedLocation.zoom}!2d${selectedLocation.lng}!3d${selectedLocation.lat}!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2z${selectedLocation.coords}!5e0!3m2!1sen!2sus!4v1642089876543!5m2!1sen!2sus&markers=color:blue%7Clabel:${selectedLocation.label}%7C${selectedLocation.lat},${selectedLocation.lng}`}
-                    src={`https://maps.google.com/maps?q=${selectedLocation.lat},${selectedLocation.lng}&z=14&output=embed`}
+                    src={`https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d${selectedLocation.zoom}!2d${selectedLocation.lng}!3d${selectedLocation.lat}!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2z${selectedLocation.coords}!5e0!3m2!1sen!2sus!4v1642089876543!5m2!1sen!2sus&markers=color:blue%7Clabel:${selectedLocation.label}%7C${selectedLocation.lat},${selectedLocation.lng}`}
+                    // src={`https://maps.google.com/maps?q=${selectedLocation.lat},${selectedLocation.lng}&z=14&output=embed`}
                     width="100%"
                     height="400"
                     style={{ border: 0, filter: 'hue-rotate(220deg) saturate(0.8) brightness(0.9)' }}
