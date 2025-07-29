@@ -160,7 +160,7 @@ console.log(selectedLocation);
               </p>
 
               {/* Statistics */}
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+              {/* <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                 <div className="glass-effect rounded-xl p-6 backdrop-blur-xl border border-white/20 text-center">
                   <div className="text-gray-300 font-medium">Global Clients</div>
                 </div>
@@ -170,7 +170,7 @@ console.log(selectedLocation);
                 <div className="glass-effect rounded-xl p-6 backdrop-blur-xl border border-white/20 text-center">
                   <div className="text-gray-300 font-medium">AI Solutions</div>
                 </div>
-              </div>
+              </div> */}
             </div>
 
             {/* Right Side - Image */}

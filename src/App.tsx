@@ -58,7 +58,7 @@ function App() {
               <StrategicImpactSection />
               <IndustriesSection />
                
-              <BlogSection category="opho-tech" status="published" />
+              {/* <BlogSection category="opho-tech" status="published" /> */}
 
               <CareersSection />
              
