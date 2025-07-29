@@ -93,15 +93,23 @@ const DemoModal: React.FC<DemoModalProps> = ({ isOpen, onClose }) => {
         <div className="relative bg-black rounded-t-2xl overflow-hidden flex-shrink-0">
           <div className="h-64 bg-gradient-to-br from-gray-800 to-gray-900 flex items-center justify-center">
             {!isVideoPlaying ? (
-              <div className="text-center">
-                <button
-                  onClick={handleVideoPlay}
-                  className="w-16 h-16 bg-white/20 hover:bg-white/30 rounded-full flex items-center justify-center backdrop-blur-sm transition-all duration-300 hover:scale-110 mb-4"
-                >
-                  {/* <Play className="w-6 h-6 text-white ml-1" /> */}
-                </button>
-                <p className="text-gray-400 text-sm">Click to play demo video</p>
-              </div>
+              // <div className="text-center">
+              //   <button
+              //     onClick={handleVideoPlay}
+              //     className="w-16 h-16 bg-white/20 hover:bg-white/30 rounded-full flex items-center justify-center backdrop-blur-sm transition-all duration-300 hover:scale-110 mb-4"
+              //   >
+              //     {/* <Play className="w-6 h-6 text-white ml-1" /> */}
+              //   </button>
+              //   <p className="text-gray-400 text-sm">Click to play demo video</p>
+              // </div>
+                <div className="w-full h-full relative">
+  <img
+    src="https://i.postimg.cc/5tfrnSKn/robs-HOrh-Cn-Qsxn-Q-unsplash.jpg"
+    alt="Demo"
+    className="w-full h-full object-cover rounded-lg"
+  />
+  <div className="absolute inset-0 bg-gradient-to-t from-black/20 via-transparent to-transparent pointer-events-none"></div>
+</div>
             ) : (
               <div className="w-full h-full relative">
                 {/* Demo Video - Using a sample tech video */}
