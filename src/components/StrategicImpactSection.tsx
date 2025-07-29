@@ -50,9 +50,9 @@ const StrategicImpactSection: React.FC = () => {
           
           <p className="text-lg md:text-xl text-gray-300 max-w-4xl mx-auto leading-relaxed mb-8">
             A systematic approach to{' '}
-            <span className="text-primary-400 font-semibold">"Flywheel of Innovation"</span> — making OphoTech not just a tech provider, but a{' '}
-            <span className="text-primary-400 font-semibold">Transformation Partner</span> and{' '}
-            <span className="text-primary-400 font-semibold">Leadership Incubator</span>.
+            <span className="text-primary-400 font-semibold">"Licensing Leadership for the Future of Tech; Continuous Growth Engine"</span> — making OphoTech not just a tech provider, but a{' '}
+            <span className="text-primary-400 font-semibold">Strategic Growth Partner</span> and{' '}
+            <span className="text-primary-400 font-semibold">Future Leaders Accelerator</span>.
           </p>
         </div>
 
