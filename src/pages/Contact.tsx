@@ -194,13 +194,13 @@ const Contact: React.FC = () => {
               {/* Compact Office Names List */}
               <div className="space-y-3">
                 <div className="bg-white/10 rounded-lg p-2 sm:p-3 text-center border border-white/20 hover:bg-white/15 transition-all duration-200">
-                  <div className="text-sm sm:text-base font-bold text-white mb-1">Mississauga</div>
+                  <div className="text-sm sm:text-base font-bold text-white mb-1">2302 - 228 Queens Quay W Downtown, Toronto M5J2X1 </div>
                   <div className="text-xs sm:text-sm text-gray-400">Canada</div>
                   <div className="text-xs text-primary-400 mt-1">Headquarters</div>
                 </div>
                 
                 <div className="bg-white/10 rounded-lg p-2 sm:p-3 text-center border border-white/20 hover:bg-white/15 transition-all duration-200">
-                  <div className="text-sm sm:text-base font-bold text-white mb-1">San Francisco</div>
+                  <div className="text-sm sm:text-base font-bold text-white mb-1">5565 silver creek valley rd Suite#600 San Jose CA 95138</div>
                   <div className="text-xs sm:text-sm text-gray-400">USA</div>
                   <div className="text-xs text-primary-400 mt-1">Operations</div>
                 </div>

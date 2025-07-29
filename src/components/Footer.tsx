@@ -140,7 +140,7 @@ const Footer: React.FC = () => {
             <div className="space-y-3">
               <div className="flex items-center gap-3 text-sm text-gray-300">
                 <Mail className="w-4 h-4 text-primary-400" />
-                <span>contact@ophotech.com</span>
+                <span>info@ophotech.com</span>
               </div>
               <div className="flex items-center gap-3 text-sm text-gray-300">
                 <Phone className="w-4 h-4 text-primary-400" />
@@ -148,7 +148,7 @@ const Footer: React.FC = () => {
               </div>
               <div className="flex items-center gap-3 text-sm text-gray-300">
                 <MapPin className="w-4 h-4 text-primary-400" />
-                <span>Mississauga, Canada</span>
+                <span>2302 - 228 Queens Quay W Downtown, Toronto M5J2X1 Canada</span>
               </div>
             </div>
           </div>

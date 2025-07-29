@@ -140,7 +140,7 @@ const CareersApplication: React.FC = () => {
       id: 1,
       title: 'Senior AI Engineer',
       department: 'Engineering',
-      location: 'San Francisco, CA',
+      location: '5565 silver creek valley rd Suite#600 San Jose CA 95138, CA',
       type: 'Full-time',
       experience: '5+ years',
       salary: '$150,000 - $200,000',

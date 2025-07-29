@@ -373,14 +373,14 @@ const Careers: React.FC = () => {
                 <div className="flex items-center justify-between p-3 bg-white/10 rounded-lg">
                   <div className="flex items-center gap-3">
                     <MapPin className="w-4 h-4 text-primary-400" />
-                    <span className="text-white font-medium">Mississauga, CA</span>
+                    <span className="text-white font-medium">2302 - 228 Queens Quay W Downtown, Toronto M5J2X1 Canada</span>
                   </div>
                   <span className="text-gray-400 text-sm">Headquarters</span>
                 </div>
                 <div className="flex items-center justify-between p-3 bg-white/10 rounded-lg">
                   <div className="flex items-center gap-3">
                     <MapPin className="w-4 h-4 text-primary-400" />
-                    <span className="text-white font-medium">San Francisco, CA</span>
+                    <span className="text-white font-medium">5565 silver creek valley rd Suite#600 San Jose CA 95138</span>
                   </div>
                   <span className="text-gray-400 text-sm">Operations</span>
                 </div>

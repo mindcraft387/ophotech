@@ -651,13 +651,13 @@ const TermsOfService: React.FC = () => {
               <div className="bg-white/5 rounded-lg p-6 border border-white/10">
                 <div className="space-y-2">
                   <p className="text-white font-semibold">Opho Tech Inc.</p>
-                  <p className="text-gray-300">7025 Tomken Rd, Mississauga, Ontario L5T 2J8</p>
-                  <p className="text-gray-300">Canada</p>
+                  <p className="text-gray-300">2302 - 228 Queens Quay W Downtown, Toronto M5J2X1 Canada</p>
+                  {/* <p className="text-gray-300">Canada</p> */}
                   <a 
-                    href="mailto:legal@ophotech.com" 
+                    href="mailto:info@ophotech.com" 
                     className="text-primary-400 hover:text-primary-300 transition-colors"
                   >
-                    legal@ophotech.com
+                    info@ophotech.com
                   </a>
                 </div>
               </div>
@@ -672,7 +672,7 @@ const TermsOfService: React.FC = () => {
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
                   <a
-                    href="mailto:legal@ophotech.com"
+                    href="mailto:info@ophotech.com"
                     className="inline-flex items-center gap-2 px-6 py-3 bg-primary-500 hover:bg-primary-600 text-white font-semibold rounded-lg transition-colors"
                   >
                     <Mail className="w-4 h-4" />

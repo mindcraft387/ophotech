@@ -5,7 +5,7 @@ import { Target, Eye, Heart, Users, MapPin, Award, Globe, User } from 'lucide-re
 const AboutSection: React.FC = () => {
   const [activeTab, setActiveTab] = useState('mission');
   const [selectedLocation, setSelectedLocation] = useState({
-    city: 'Mississauga',
+    city: '2302 - 228 Queens Quay W Downtown, Toronto M5J2X1 ',
     country: 'Canada',
     lat: 43.5890,
     lng: -79.6441,
@@ -65,15 +65,15 @@ const AboutSection: React.FC = () => {
   ];
 
   const globalPresence = [
-    { city: 'Mississauga', country: 'Canada', type: 'Head Office', address: '7025 Tomken Rd, Mississauga, Ontario L5T 2J8, Canada' },
-     { city: 'Bay Area', country: 'USA', type: 'Operations', address: 'Bay Area, San Francisco, California, USA' },
+    { city: '2302 - 228 Queens Quay W Downtown, Toronto M5J2X1', country: 'Canada', type: 'Head Office', address: '2302 - 228 Queens Quay W Downtown, Toronto M5J2X1 Canada' },
+     { city: '5565 silver creek valley rd Suite#600 San Jose CA 95138', country: 'USA', type: 'Operations', address: '5565 silver creek valley rd Suite#600 San Jose CA 95138' },
     { city: 'New Delhi', country: 'India', type: 'India Office', address: 'B1/1, Community Centre, Janakpuri, New Delhi 110058' },
      { city: 'Andorra la Vella', country: 'Andorra', type: 'Europe Operations', address: 'CARRER PERE D\'URG, NÚM. 9, 5F PIS, 4A PORTA AD500- ANDORRA LA VELLA' },
   ];
 
   const locationCoordinates = {
-    'Mississauga': {
-      city: 'Mississauga',
+    '2302 - 228 Queens Quay W Downtown, Toronto M5J2X1': {
+      city: '2302 - 228 Queens Quay W Downtown, Toronto M5J2X1',
       country: 'Canada',
       lat: 43.5890,
       lng: -79.6441,
@@ -90,8 +90,8 @@ const AboutSection: React.FC = () => {
       coords: 'MjjCsDM3JzQyLjUiTiA3N8KwMDUnMjkuMyJF',
       label: 'ND'
     },
-    'Bay Area': {
-      city: 'Bay Area',
+    '5565 silver creek valley rd Suite#600 San Jose CA 95138': {
+      city: '5565 silver creek valley rd Suite#600 San Jose CA 95138',
       country: 'USA',
      lat: 37.7749295,
      lng: -122.4194155,

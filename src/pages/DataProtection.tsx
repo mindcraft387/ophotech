@@ -219,8 +219,8 @@ const DataProtection: React.FC = () => {
                 You have the right to request access to any personal information we have collected about you. 
                 Opho Tech can provide a copy of your stored personal data upon request. To comply with your 
                 request, we may ask you to verify your identity. Please contact us at{' '}
-                <a href="mailto:privacy@ophotech.com" className="text-primary-400 hover:text-primary-300 transition-colors">
-                  privacy@ophotech.com
+                <a href="mailto:info@ophotech.com" className="text-primary-400 hover:text-primary-300 transition-colors">
+                  info@ophotech.com
                 </a>{' '}
                 to submit a personal information request.
               </p>
@@ -235,8 +235,8 @@ const DataProtection: React.FC = () => {
                 If you believe any information we hold about you is inaccurate, please contact us so we can 
                 correct it. You also have the right to request deletion of your information. We may require you to 
                 verify your identity to process your request. Please contact{' '}
-                <a href="mailto:privacy@ophotech.com" className="text-primary-400 hover:text-primary-300 transition-colors">
-                  privacy@ophotech.com
+                <a href="mailto:info@ophotech.com" className="text-primary-400 hover:text-primary-300 transition-colors">
+                  info@ophotech.com
                 </a>{' '}
                 for data correction or deletion requests.
               </p>
@@ -282,8 +282,8 @@ const DataProtection: React.FC = () => {
 
                 <p className="text-gray-300 leading-relaxed">
                   To process your "do not share" request, we may require identity verification. Please contact{' '}
-                  <a href="mailto:privacy@ophotech.com" className="text-primary-400 hover:text-primary-300 transition-colors">
-                    privacy@ophotech.com
+                  <a href="mailto:info@ophotech.com" className="text-primary-400 hover:text-primary-300 transition-colors">
+                    info@ophotech.com
                   </a>{' '}
                   or use our support form to submit your request.
                 </p>
@@ -314,18 +314,18 @@ const DataProtection: React.FC = () => {
                     <div className="flex items-start gap-3">
                       <MapPin className="w-5 h-5 text-primary-400 mt-0.5" />
                       <div className="text-gray-300">
-                        <p>7025 Tomken Rd, Mississauga, Ontario L5T 2J8</p>
-                        <p>Canada</p>
+                        <p>2302 - 228 Queens Quay W Downtown, Toronto M5J2X1 Canada</p>
+                        {/* <p>Canada</p> */}
                       </div>
                     </div>
                     
                     <div className="flex items-center gap-3">
                       <Mail className="w-5 h-5 text-primary-400" />
                       <a 
-                        href="mailto:privacy@ophotech.com" 
+                        href="mailto:info@ophotech.com" 
                         className="text-primary-400 hover:text-primary-300 transition-colors"
                       >
-                        privacy@ophotech.com
+                        info@ophotech.com
                       </a>
                     </div>
                   </div>
@@ -342,7 +342,7 @@ const DataProtection: React.FC = () => {
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
                   <a
-                    href="mailto:privacy@ophotech.com"
+                    href="mailto:info@ophotech.com"
                     className="inline-flex items-center gap-2 px-6 py-3 bg-primary-500 hover:bg-primary-600 text-white font-semibold rounded-lg transition-colors"
                   >
                     <Mail className="w-4 h-4" />

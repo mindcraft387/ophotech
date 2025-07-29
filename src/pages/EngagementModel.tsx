@@ -373,7 +373,7 @@ const EngagementModel: React.FC = () => {
                   </div>
                   <div>
                     <h4 className="text-white font-semibold mb-1">Email Us</h4>
-                    <p className="text-gray-300 text-sm">contact@ophotech.com</p>
+                    <p className="text-gray-300 text-sm">info@ophotech.com</p>
                   </div>
                 </div>
                 <div className="flex flex-col items-center gap-3">
@@ -391,7 +391,7 @@ const EngagementModel: React.FC = () => {
                   </div>
                   <div>
                     <h4 className="text-white font-semibold mb-1">Visit Us</h4>
-                    <p className="text-gray-300 text-sm">Mississauga, Canada</p>
+                    <p className="text-gray-300 text-sm">2302 - 228 Queens Quay W Downtown, Toronto M5J2X1 Canada</p>
                   </div>
                 </div>
               </div>

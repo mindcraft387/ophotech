@@ -98,14 +98,14 @@ const DemoModal: React.FC<DemoModalProps> = ({ isOpen, onClose }) => {
                   onClick={handleVideoPlay}
                   className="w-16 h-16 bg-white/20 hover:bg-white/30 rounded-full flex items-center justify-center backdrop-blur-sm transition-all duration-300 hover:scale-110 mb-4"
                 >
-                  <Play className="w-6 h-6 text-white ml-1" />
+                  {/* <Play className="w-6 h-6 text-white ml-1" /> */}
                 </button>
                 <p className="text-gray-400 text-sm">Click to play demo video</p>
               </div>
             ) : (
               <div className="w-full h-full relative">
                 {/* Demo Video - Using a sample tech video */}
-                <video
+                {/* <video
                   className="w-full h-full object-cover"
                   controls
                   autoPlay
@@ -114,7 +114,16 @@ const DemoModal: React.FC<DemoModalProps> = ({ isOpen, onClose }) => {
                   <source src="https://sample-videos.com/zip/10/mp4/SampleVideo_1280x720_1mb.mp4" type="video/mp4" />
                   <source src="https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" type="video/mp4" />
                   Your browser does not support the video tag.
-                </video>
+                </video> */}
+                <div className="w-full h-full relative">
+  <img
+    src="https://i.postimg.cc/5tfrnSKn/robs-HOrh-Cn-Qsxn-Q-unsplash.jpg"
+    alt="Demo"
+    className="w-full h-full object-cover rounded-lg"
+  />
+  <div className="absolute inset-0 bg-gradient-to-t from-black/20 via-transparent to-transparent pointer-events-none"></div>
+</div>
+
                 <div className="absolute inset-0 bg-gradient-to-t from-black/20 via-transparent to-transparent pointer-events-none"></div>
               </div>
             )}
