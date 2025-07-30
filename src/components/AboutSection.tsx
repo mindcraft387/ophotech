@@ -174,7 +174,7 @@ console.log(selectedLocation);
             </div>
 
             {/* Right Side - Image */}
-            <div className="order-2 lg:order-2">
+            {/* <div className="order-2 lg:order-2">
               <div className="relative">
                 <div className="glass-effect overflow-hidden border border-white/20 backdrop-blur-xl">
                   <img
@@ -185,7 +185,20 @@ console.log(selectedLocation);
                   <div className="absolute inset-0 bg-gradient-to-t from-primary-dark/60 via-transparent to-transparent"></div>
                 </div>
               </div>
-            </div>
+            </div> */}
+            <div className="order-2 lg:order-2 w-full">
+  <div className="relative w-full">
+    <div className="glass-effect overflow-hidden border border-white/20 backdrop-blur-xl rounded-lg">
+      <img
+        src="/cce.jpg"
+        alt="OphoTech team collaboration"
+        className="w-full h-auto max-h-[70vh] object-cover aspect-video sm:aspect-[4/3] md:aspect-[3/2]"
+      />
+      <div className="absolute inset-0 bg-gradient-to-t from-primary-dark/60 via-transparent to-transparent"></div>
+    </div>
+  </div>
+</div>
+
           </div>
         </div>
 
